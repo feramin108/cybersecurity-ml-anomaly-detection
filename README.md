@@ -22,3 +22,8 @@ This project demonstrates how to develop machine learning models for cybersecuri
 ```bash
 git clone https://github.com/yourusername/cybersecurity-ml-anomaly-detection.git
 cd cybersecurity-ml-anomaly-detection
+
+### Step 2: Set Up the Environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
