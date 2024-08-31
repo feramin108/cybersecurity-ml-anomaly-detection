@@ -1,26 +1,4 @@
-cybersecurity-ml-anomaly-detection/
-│
-├── data/                      # Directory for storing synthetic data
-│   ├── network_traffic_logs.csv
-│   ├── user_behavior_logs.csv
-│   └── system_logs.csv
-│
-├── notebooks/                 # Jupyter notebooks for data generation, model development, and analysis
-│   ├── 01_generate_synthetic_data.ipynb
-│   ├── 02_anomaly_detection_model.ipynb
-│   ├── 03_predictive_analytics_model.ipynb
-│   └── 04_evaluation_and_deployment.ipynb
-│
-├── src/                       # Python scripts for data generation, model training, and evaluation
-│   ├── generate_data.py
-│   ├── train_anomaly_detection_model.py
-│   ├── train_predictive_model.py
-│   ├── evaluate_models.py
-│   └── utils.py               # Helper functions and utilities
-│
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project overview and instructions
-└── LICENSE                    # License file (optional)
+![image](https://github.com/user-attachments/assets/9ebcd7c6-4e09-45e4-a384-d5a4f201c547)
 
 
 
