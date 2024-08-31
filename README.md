@@ -22,8 +22,27 @@ This project demonstrates how to develop machine learning models for cybersecuri
 ```bash
 git clone https://github.com/yourusername/cybersecurity-ml-anomaly-detection.git
 cd cybersecurity-ml-anomaly-detection
+```
 
 ### Step 2: Set Up the Environment
+Create a virtual environment and install the required dependencies.
+```bash
+
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+```
+
+Step 3: Generate Synthetic Data
+Generate fictional data for network traffic, user behavior, and system logs.
+
+Option 1: Run the script directly.
+```bash
+python src/generate_data.py
+```
+Option 2: Use the Jupyter notebook.
+```bash
+jupyter notebook notebooks/01_generate_synthetic_data.ipynb
+```
+This will create three CSV files in the data/ directory.
+
