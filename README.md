@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9ebcd7c6-4e09-45e4-a384-d5a4f201c547)
+
 
 
 
@@ -12,6 +12,8 @@ This project demonstrates how to develop machine learning models for cybersecuri
 - `notebooks/`: Jupyter notebooks for data generation, model development, and analysis.
 - `src/`: Python scripts for generating data, training models, and evaluating results.
 - `requirements.txt`: List of Python dependencies required for the project.
+
+![image](https://github.com/user-attachments/assets/9ebcd7c6-4e09-45e4-a384-d5a4f201c547)
 
 ## Getting Started
 
