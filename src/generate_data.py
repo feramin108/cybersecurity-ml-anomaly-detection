@@ -1,8 +1,11 @@
-
+import os
 import pandas as pd
 import numpy as np
 import random
 from datetime import datetime, timedelta
+
+# Create the 'data' directory if it doesn't exist
+os.makedirs('data', exist_ok=True)
 
 # Parameters for data generation
 num_records = 10000
@@ -19,7 +22,7 @@ def generate_protocol():
     return random.choice(['TCP', 'UDP', 'ICMP'])
 
 def generate_resource():
-    return random.choice(['/home/user/documents', '/var/log/system.log', '/etc/passwd'])
+    return random.choice(['/home/snowish/cybersecurity-ml-anomaly-detection/cybersecurity-ml-anomaly-detection/src', '/var/log/system.log', '/etc/passwd'])
 
 def generate_event_type():
     return random.choice(['process_start', 'file_modification', 'user_creation'])
