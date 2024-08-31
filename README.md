@@ -68,7 +68,7 @@ Option 2: Use the Jupyter notebook.
 ```bash
 jupyter notebook notebooks/03_predictive_analytics_model.ipynb
 ```
-Step 6: Evaluate and Deploy Models
+### Step 6: Evaluate and Deploy Models
 Evaluate the trained models and prepare them for deployment.
 
 Option 1: Run the script directly
